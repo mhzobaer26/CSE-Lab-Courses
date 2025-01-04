@@ -1,0 +1,4 @@
+router(config)#router rip
+router(config-router)#network 192.168.1.0
+router(config-router)#network 192.168.2.0
+router(config-router)#network 192.168.3.0

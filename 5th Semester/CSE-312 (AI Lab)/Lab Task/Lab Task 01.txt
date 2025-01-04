@@ -1,0 +1,8 @@
+
+Imagine you're working with temperature data from a weather station, recorded hourly for one week. The data is stored in a 2D Numpy array where each row represents a day of the week and each column represents the temperature at a specific hour.
+
+1. Create 7x24 Numpy array with random temperature values between -5° to 30°C. 
+2. Calculate the average temperature for each day.
+3. Calculate max and min temperature for each day.
+4. Find the total number of hours in the week when the temp is below O°C.
+5. Calculate the overall temp. of the week
