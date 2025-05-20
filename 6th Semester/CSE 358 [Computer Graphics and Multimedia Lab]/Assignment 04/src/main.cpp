@@ -51,7 +51,7 @@ int main()
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
 #endif
 
-    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Rotating Triangle", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Mobarok Hossain Zobaer", NULL, NULL);
     if (!window) {
         std::cout << "Failed to create GLFW window\n";
         glfwTerminate();
