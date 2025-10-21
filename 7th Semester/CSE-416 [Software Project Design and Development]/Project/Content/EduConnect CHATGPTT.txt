@@ -1,0 +1,227 @@
+EduConnect – Figma Design Brief (Updated)
+🎨 Brand Identity
+
+Primary Color: Blue #2D89EF
+
+Accent Color: Yellow #FFD93D
+
+Typography: Poppins / Inter
+
+Body text: 16–18px
+
+Headings: 24–28px
+
+Style: Rounded corners (16–20px), soft shadows, generous spacing
+
+Feel: Clean, Modern, Educational, Trustworthy
+
+🔑 Core Buttons & Interactions
+
+Sign In / Sign Up: Opens form modal with input fields.
+
+Get Started: CTA → goes to Sign Up (if new) or Dashboard (if logged in).
+
+📌 Core Screens to Design
+1. Landing Page / Homepage
+
+Hero Section
+
+Title: “EduConnect – A Smart Education Service Platform”
+
+Tagline: “All educational services in one place for Bangladeshi students”
+
+Navigation bar: Logo + Links (Home, Features, News, Login, Sign Up)
+
+CTA Buttons:
+
+Get Started → Goes to Sign Up/Onboarding flow.
+
+Sign Up → Opens registration form directly.
+
+Six Feature Cards with Icons
+
+Student Profile & Storage
+
+Digital Textbook Library (NCTB)
+
+Results Checking (SSC/HSC)
+
+Online Admission Hub
+
+AI Learning Assistant
+
+News & Deadlines
+
+2. Student Dashboard
+
+Welcome Message
+
+If the student is logged in → Show: “Welcome back, [Student Name]” and display their profile info.
+
+If the student is not logged in → Prompt them to Sign Up / Sign In first.
+
+Student Profile & Storage (visible only after login)
+
+Saved academic details
+
+Auto-fill for admission forms
+
+Profile Info (Name, ID, Contact visibility toggle, Department, Institute)
+
+Cloud Storage (200MB–500MB)
+
+Upload Notes (PDF, Images, Docs)
+
+File Sharing (Private / Friends-only / Public)
+
+AI Assistant support for uploaded notes
+3. Digital Textbook Library
+
+Class Selector (1–10) in grid layout
+
+Subject Cards (Bangla, English, Math, Science…)
+
+Click Subject → Book Grid → Download Button
+
+Each book links to official NCTB PDF
+
+Search + Filter by Class/Subject
+
+“Powered by NCTB” badge
+
+4. Results Checking
+
+Two buttons: SSC / HSC
+
+Clicking → Embedded link to eboardresults.com
+
+Authentication Badge: “Powered by eboardresults.com”
+
+5. Online Admission Hub (Updated)
+
+Application Flow
+
+User selects University / College / NU program.
+
+Auto-filled personal information (from signup).
+
+Institution selection dropdowns.
+
+Fee breakdown (Official Fee + Service Fee = Total).
+
+Buttons: Save as Draft | Apply Now.
+
+Confirmation Screen
+
+✅ Green checkmark with “Application Submitted!”.
+
+Display Application ID.
+
+Buttons: Download PDF, Track Application, Payment Status.
+
+Direct Mock University Portal Integration (Demo Simulation)
+
+Once an application is submitted in EduConnect, the same data is instantly updated in the linked Mock University Portal.
+
+Example portals:
+
+RU → application.ru.ac.bd
+
+DU → admission.eis.du.ac.bd
+
+CU, JU, NU → Similar demo layouts
+
+Confirmation message (from portal):
+“Application Received Successfully – ID: [UNIVERSITY2025XXXX]”
+
+6. AI Learning Assistant
+
+Chat UI with bubbles
+
+Input: “Ask anything in Bangla or English…”
+
+Example Conversation (Bangla Q + AI Answer)
+
+Feature Buttons:
+
+Generate Quiz
+
+Summarize Chapter
+
+Analyze Notes
+
+Floating AI Icon
+
+7. News & Deadlines
+
+Card-style News Feed
+
+Tabs: All | Results | Admissions | Scholarships | Board Notices
+
+Each item: Title, Date, Source + “Read More”
+
+Notification Bell with badge
+
+Subscription Toggles
+
+8. Mobile Responsive Views
+
+Bottom Nav bar with 5 main icons
+
+Optimized grid → list layout for small screens
+
+Larger touch areas
+
+🧩 UI Components to Include
+
+Navigation bars (desktop & mobile)
+
+Buttons: Primary, Secondary, Outline
+
+Forms (Inputs, Dropdowns, Checkboxes)
+
+Cards/Tiles
+
+Modals/Popups
+
+Notifications + Loading states
+
+Success/Error messages
+
+Progress bars & Storage indicator
+
+Chat bubbles (AI)
+
+Document/PDF preview mockups
+
+🌍 Sample Content
+
+Realistic Bangladeshi student names & schools
+
+Example SSC/HSC roll numbers
+
+Real University names/logos
+
+Authentic NCTB book covers
+
+Bengali + English text in UI
+
+♿ Accessibility
+
+High contrast text
+
+Proper hierarchy (H1, H2, body)
+
+Large buttons for mobile
+
+Clear feedback/loading states
+
+🔄 User Flow Demos
+
+Homepage → Feature → Detailed Screen
+
+Admission Flow → Form → Submission → Confirmation
+
+Results → Input → Result Display
+
+AI Assistant → Question → Answer

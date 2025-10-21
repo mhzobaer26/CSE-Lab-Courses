@@ -1,0 +1,234 @@
+ Figma AI Prompt for EduConnect - A Smart Education Service Platform (Updated)
+
+## Design Brief
+Create a modern, user-friendly educational platform demo for Bangladeshi students (Class 1 to University level). The platform should feel clean, accessible, and trustworthy with a focus on simplicity and functionality.
+
+## Brand Colors & Style
+- **Primary Blue:** #2D89EF
+- **Accent Yellow:** #FFD93D  
+- **Typography:** Poppins or Inter font family
+- **Body text:** 16-18px
+- **Headings:** 24-28px
+- **Design style:** Rounded corners (16-20px), soft shadows, generous spacing
+- **Overall feel:** Clean, modern, educational, trustworthy
+
+## Core Screens to Design
+
+### 1. Landing Page/Homepage
+- Hero section with "EduConnect - A Smart Education Service Platform"
+- Tagline: "All educational services in one place for Bangladeshi students"
+- Six main feature cards with icons:
+  - Student Profile & Storage
+  - Digital Textbook Library (NCTB)
+  - Results Checking (SSC/HSC)
+  - Online Admission Hub
+  - AI Learning Assistant
+  - News & Deadlines
+- Clean navigation bar with EduConnect logo
+- **Functional Buttons (create interactive components):**
+  - **"Get Started" Button:** Make it clickable with hover states, should link to registration form or dashboard preview
+  - **"Sign In" Button:** Create a modal/popup with login form (email/phone field, password field, "Remember Me" checkbox, "Forgot Password" link)
+  - **"Sign Up" Button:** Create a multi-step registration form with fields for Name, Email/Phone, Student ID, Class/Level, Institution, Password, Confirm Password
+
+### 2. Student Dashboard (After Login)
+**Dynamic User Profile Display:**
+- Personal greeting: "Welcome back, [Dynamic Student Name]"
+- **Comprehensive Profile Management Section:**
+  - Editable profile card with fields: Name, Student ID, Contact (with hide/show toggle), Department, Institution
+  - "Edit Profile" button that opens modal with form fields
+  - Academic details section (SSC/HSC results, current institution)
+  - Auto-fill preferences toggle for applications
+
+**Storage & File Management:**
+- **Private Cloud Storage Panel:**
+  - Storage quota indicator: "Used: 150MB / 500MB" with visual progress bar
+  - **Upload Notes Section:** Drag-and-drop area for PDFs, images, documents
+  - **File Organization:** Grid/list view of uploaded files with thumbnails
+  - **Sharing Controls:** Each file has dropdown for "Private", "Friends Only", "Public Community"
+  - **AI Integration Button:** "Analyze with AI" option for each uploaded file
+
+**Quick Access & Activity:**
+- Six main feature tiles (larger, more prominent)
+- Recent activity feed showing: "You uploaded Math Notes", "AI summarized your Physics chapter", etc.
+- **Friends/Classmates section:** List of connected EduConnect members for file sharing
+
+### 3. Digital Textbook Library (NCTB Integration)
+- **Class Selector Grid:** Visual cards for Class 1-10 with student illustrations
+- **Subject Cards Layout:** When class selected, show subject cards (Bangla, English, Math, Science, etc.)
+- **Book Display System:** 
+  - Grid layout showing NCTB book covers
+  - Each book card shows: Subject name, Class, NCTB official badge
+  - **Functional Download:** "Download PDF" button with loading state and progress bar
+  - **Direct NCTB Integration:** Show "Fetching from NCTB servers..." loading message
+- Search bar with filters: "Filter by Class", "Filter by Subject"
+- "Powered by NCTB" authentication badge prominently displayed
+
+### 4. Results Checking Interface
+- **Two Main Buttons:**
+  - **"Check SSC Results"** - Links to eboardresults.com SSC section
+  - **"Check HSC Results"** - Links to eboardresults.com HSC section
+- **Input Form Mock-up:**
+  - Roll Number field
+  - Registration Number field  
+  - Exam Year dropdown
+  - Board Name dropdown (Dhaka, Chittagong, Rajshahi, etc.)
+  - "Check Results" prominent button
+- **Integration Display:** "Connecting to eboardresults.com..." loading state
+- "Powered by eboardresults.com" authentication badge
+- Sample result display card showing grades and GPA
+
+### 5. Online Admission Hub
+**Main Dashboard:**
+- **Three Category Cards with realistic institutions:**
+  - **Public Universities:** DU, RU, CU, JU, BUET, RUET icons and names
+  - **Government Colleges:** Dhaka College, Rajshahi College, Chittagong College, etc.
+  - **National University Programs:** List of NU programs and affiliated colleges
+
+**Application Form (Multi-step):**
+- **Step 1 - Personal Info (Auto-filled & locked):**
+  - Name, Phone, Email (grayed out from profile)
+  - SSC: Roll, Registration, Board, Year, GPA
+  - HSC: Roll, Registration, Board, Year, GPA
+  - New fields: Father's Name, Mother's Name, Present Address
+- **Step 2 - Institution Selection:**
+  - First dropdown: University/College category
+  - Second dropdown: Specific institution
+  - Third dropdown: Program/Department
+  - Quota selection: General/Freedom Fighter/Tribal
+- **Step 3 - Fee Breakdown:**
+  - Official University Fee: 1,500 BDT
+  - EduConnect Service Fee: 50 BDT
+  - **Total: 1,550 BDT** (highlighted in yellow)
+- Buttons: "Save as Draft" (gray) | "Apply Now" (blue primary)
+
+**Confirmation & Tracking:**
+- Large green checkmark animation
+- "Application Submitted Successfully!" heading
+- Application ID: "EDU2025-DU-A1B2C3"
+- **Action Buttons:**
+  - "Download Application PDF" (functional download icon)
+  - "Track Application Status" (opens tracking modal)
+  - "Payment Status" (shows payment pending/completed)
+
+**Mock University Portals (Auto-Sync with Admission Hub):**
+
+**CRITICAL INTEGRATION:** When a student submits application through EduConnect Admission Hub, the corresponding Mock University Portal should automatically update and show the application.
+
+Create 5 different university portal mockups with **real-time sync**:
+
+1. **Rajshahi University Portal (ru-portal.educonnect.com):**
+   - Green theme matching RU colors
+   - Shows submitted applications automatically from EduConnect
+   - Status: "New Application Received from EduConnect - ID: RU2025-XXXX"
+   - Auto-filled application form with student data
+
+2. **Dhaka University Portal (du-portal.educonnect.com):**
+   - Maroon theme matching DU colors
+   - Real-time application sync from EduConnect Hub
+   - Status: "EduConnect Application Processing - ID: DU2025-XXXX"  
+   - Auto-populated admission form
+
+3. **Chittagong University Portal (cu-portal.educonnect.com):**
+   - Blue theme matching CU colors
+   - Automatic application transfer system
+   - Status: "Application Imported from EduConnect - ID: CU2025-XXXX"
+
+4. **Jagannath University Portal (ju-portal.educonnect.com):**
+   - Orange theme matching JU colors  
+   - Direct integration with EduConnect submissions
+   - Status: "EduConnect Application Processed - ID: JU2025-XXXX"
+
+5. **National University Portal (nu-portal.educonnect.com):**
+   - Government formal style
+   - Automated college assignment from EduConnect
+   - Status: "Application Synchronized - ID: NU2025-XXXX"
+
+**Auto-Sync Flow Demonstration:**
+1. Student completes application in EduConnect Admission Hub
+2. Shows loading: "Connecting to [University] Portal..."
+3. Automatically creates account/application in selected Mock University Portal  
+4. Both systems show same Application ID and status
+5. Student can access both EduConnect tracking AND university portal with same credentials
+
+**Portal Integration Features:**
+- Same Application ID across both platforms
+- Real-time status updates (Applied → Under Review → Interview → Selected)
+- Document sync (uploaded files appear in both systems)
+- Payment status sync between EduConnect and university portal
+- Direct login with EduConnect credentials to university portals
+
+**Visual Connection Indicators:**
+- Show "↔️ Synced with EduConnect" badge on university portals
+- Display sync timestamp: "Last updated: 2 minutes ago"
+- Connection status indicator: Green dot for active sync
+
+### 6. AI Learning Assistant
+- **Chat Interface:**
+  - Conversation bubbles (student in blue, AI in gray)
+  - **File Upload Area:** "Drop files here or click to browse" for PDFs, images, documents
+  - Input field: "Ask anything in Bangla or English..." with microphone icon
+- **Sample Conversations:**
+  - Student: "গণিতের এই সমস্যাটা সমাধান করে দাও" (with attached math problem image)
+  - AI: Step-by-step solution in both Bangla and English
+- **Feature Buttons:**
+  - "Generate Quiz" - Creates practice questions
+  - "Summarize Chapter" - AI text summarization  
+  - "Analyze Uploaded Notes" - File analysis feature
+- **Floating AI Assistant:** Chat bubble icon in bottom-right corner
+
+### 7. News & Deadlines (Live Integration)
+- **Filter Tabs:** "All" | "Results" | "Admissions" | "Scholarships" | "Board Notices"
+- **News Cards Layout:**
+  - Each card shows: Title, Date, Source, Thumbnail
+  - **Functional "Read More"** buttons linking to original sources
+  - Real news examples: "HSC 2025 Result Published", "DU Admission Circular 2025"
+- **Notification System:**
+  - Bell icon with red badge showing unread count
+  - **Subscription Toggles:** Individual switches for each news category
+- **Real Links:** All news items should connect to actual education websites
+
+### 8. Mobile Responsive Design
+- **Mobile Navigation:** Bottom tab bar with 5 main sections
+- **Hamburger Menu:** For secondary features and settings  
+- **Touch-Optimized:** Larger buttons, simplified forms, swipe gestures
+- **Mobile-First Features:** 
+  - Voice search for AI assistant
+  - Camera integration for uploading notes
+  - Push notifications for deadlines
+
+## Interactive Components & Functionality
+
+### Sign In/Sign Up Flow:
+1. **Sign In Modal:** Email/password fields, "Remember Me", social login options
+2. **Sign Up Form:** Multi-step with validation messages and progress indicator  
+3. **Success States:** "Account created successfully" with automatic login
+
+### Dynamic Content Areas:
+- **Profile customization:** Editable fields with save/cancel buttons
+- **File management:** Upload progress bars, file type icons, sharing controls
+- **Real-time updates:** Activity feeds, notification badges, status changes
+
+### Loading & Error States:
+- **Skeleton screens** for content loading
+- **Progress indicators** for file uploads and form submissions  
+- **Error messages** with retry options
+- **Success confirmations** with clear next steps
+
+## Sample Realistic Data
+
+**Student Profiles:**
+- "রহিম আহমেদ" (Rahim Ahmed) - Class 10, Dhaka Residential Model College
+- "ফাতেমা খাতুন" (Fatema Khatun) - HSC, Rajshahi Government Women's College
+
+**Institution Lists:**
+- Universities: Dhaka University, Rajshahi University, Chittagong University, BUET, RUET
+- Colleges: Dhaka College, Notre Dame College, Holy Cross College, Rajshahi College
+
+**Sample Results:**
+- SSC 2024, Roll: 123456, Dhaka Board, GPA: 4.83
+- HSC 2025, Roll: 789012, Rajshahi Board, GPA: 4.92
+
+**Realistic Application IDs:**
+- DU2025-A1B2C3, RU2025-X7Y8Z9, CU2025-M5N6P7
+
+Create a fully functional, interactive demo that demonstrates real user flows from registration to application submission, showcasing EduConnect as the comprehensive solution for Bangladeshi students' educational needs.
