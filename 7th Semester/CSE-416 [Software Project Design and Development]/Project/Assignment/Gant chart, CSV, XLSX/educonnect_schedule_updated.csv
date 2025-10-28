@@ -1,0 +1,10 @@
+Task,Start,End,Duration (days)
+Phase 0 — Kickoff & Planning,2025-08-01,2025-08-07,6
+Phase 1 — Requirements & SRS finalization,2025-08-08,2025-08-14,6
+Phase 2 — UX/UI Design,2025-08-15,2025-08-28,13
+Phase 3 — Frontend & Backend core development (parallel),2025-08-22,2025-09-18,27
+Phase 4 — Content integration & messaging,2025-09-05,2025-09-25,20
+Phase 5 — Integration & E2E Testing,2025-09-19,2025-10-09,20
+Phase 6 — Performance/security tuning + CI/CD deployment,2025-10-03,2025-10-16,13
+Phase 7 — UAT & fixes,2025-10-10,2025-10-30,20
+Phase 8 — Go-live & hypercare,2025-10-31,2025-11-20,20
